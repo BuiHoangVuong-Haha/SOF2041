@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.MainInterface">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="10" bottom="5" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="800" height="648"/>
+    </constraints>
+    <properties>
+      <minimumSize width="600" height="600"/>
+      <preferredSize width="800" height="644"/>
+    </properties>
+    <border type="none" title-justification="2" title-position="2">
+      <font name="Arial" size="16"/>
+    </border>
+    <children>
+      <toolbar id="8f924">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6af8f" class="javax.swing.JButton" binding="logOutButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Exit.png"/>
+              <text value="Log Out"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="4c708" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Stop.png"/>
+              <text value="Cancel"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="dcff2" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="ed00b" class="javax.swing.JButton" binding="thematicStudyButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Book.png"/>
+              <text value="Thematic Study"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="c9700" class="javax.swing.JButton" binding="studentsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Clien list.png"/>
+              <text value="Course Member"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="6b025" class="javax.swing.JButton" binding="coursesButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Certificate.png"/>
+              <text value="Courses"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="80a31" class="javax.swing.JButton" binding="studentsButton1" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="boy.png"/>
+              <text value="Students"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="7fcb7" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="9564e" class="javax.swing.JButton" binding="instructionButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Globe.png"/>
+              <text value="Instruction"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <grid id="722f7" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="14ccb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="12"/>
+              <icon value="Info.png"/>
+              <text value="He quan ly dao tao"/>
+            </properties>
+          </component>
+          <hspacer id="df945">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="1c227" class="javax.swing.JLabel" binding="timeLbl">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Clock.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f6a17" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="172d7" class="javax.swing.JMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="System"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="50cc3" class="javax.swing.JMenuItem" binding="loginItem">
+                <constraints/>
+                <properties>
+                  <icon value="Login.png"/>
+                  <text value="Login"/>
+                </properties>
+              </component>
+              <component id="7edd9" class="javax.swing.JMenuItem" binding="logoutItem">
+                <constraints/>
+                <properties>
+                  <icon value="Exit.png"/>
+                  <text value="Log out"/>
+                </properties>
+              </component>
+              <component id="1202b" class="javax.swing.JPopupMenu$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="b4dc9" class="javax.swing.JMenuItem" binding="changePasswordItem">
+                <constraints/>
+                <properties>
+                  <icon value="Edit.png"/>
+                  <text value="Change password"/>
+                </properties>
+              </component>
+              <component id="8d686" class="javax.swing.JPopupMenu$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="11d05" class="javax.swing.JMenuItem" binding="cancelItem">
+                <constraints/>
+                <properties>
+                  <icon value="Stop.png"/>
+                  <text value="Cancel"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="55c3" class="javax.swing.JMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Management"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cb215" class="javax.swing.JMenuItem" binding="studentsItem">
+                <constraints/>
+                <properties>
+                  <icon value="Boy.png"/>
+                  <text value="Students"/>
+                </properties>
+              </component>
+              <component id="9dc32" class="javax.swing.JMenuItem" binding="thematicStudyItem">
+                <constraints/>
+                <properties>
+                  <icon value="Book.png"/>
+                  <text value="Thematic Study"/>
+                </properties>
+              </component>
+              <component id="5f5e6" class="javax.swing.JMenuItem" binding="coursesItem">
+                <constraints/>
+                <properties>
+                  <icon value="Certificate.png"/>
+                  <text value="Courses"/>
+                </properties>
+              </component>
+              <component id="3b77" class="javax.swing.JMenuItem" binding="stManagementItem">
+                <constraints/>
+                <properties>
+                  <icon value="User group.png"/>
+                  <text value="Staffs Management"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="93830" class="javax.swing.JMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Statistics"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b1b13" class="javax.swing.JMenuItem" binding="sbyItem">
+                <constraints/>
+                <properties>
+                  <icon value="User.png"/>
+                  <text value="Students By Years"/>
+                </properties>
+              </component>
+              <component id="48010" class="javax.swing.JPopupMenu$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="e088b" class="javax.swing.JMenuItem" binding="transcriptItem">
+                <constraints/>
+                <properties>
+                  <icon value="Scroll list.png"/>
+                  <text value="Transcript"/>
+                </properties>
+              </component>
+              <component id="29fa0" class="javax.swing.JMenuItem" binding="c2cTranscriptItem">
+                <constraints/>
+                <properties>
+                  <icon value="Report.png"/>
+                  <text value="Course-by-course Transcript"/>
+                </properties>
+              </component>
+              <component id="6894e" class="javax.swing.JPopupMenu$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="37a47" class="javax.swing.JMenuItem" binding="rptItem">
+                <constraints/>
+                <properties>
+                  <icon value="Price list.png"/>
+                  <text value="Revenue Per Topic"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6c5e5" class="javax.swing.JMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Help"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6d215" class="javax.swing.JMenuItem" binding="instructionItem">
+                <constraints/>
+                <properties>
+                  <icon value="Globe.png"/>
+                  <text value="Instruction"/>
+                </properties>
+              </component>
+              <component id="3e3d8" class="javax.swing.JPopupMenu$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="ddfaf" class="javax.swing.JMenuItem" binding="aboutProductsItem">
+                <constraints/>
+                <properties>
+                  <icon value="Desktop.png"/>
+                  <text value="About Products"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="6f5a9">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="5903f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="806db" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="logo.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
