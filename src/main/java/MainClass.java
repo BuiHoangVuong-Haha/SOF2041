@@ -7,6 +7,6 @@ public class MainClass {
         Controller_PlashScreen controller_plashScreen = new Controller_PlashScreen(splashScreen);
         splashScreen.getFrame().setVisible(true);
         System.out.println("Fuck You Bitch!");
-        //Oh yeah
+        //Ml
     }
 }
